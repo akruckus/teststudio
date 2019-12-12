@@ -29,6 +29,8 @@ Build and execute Test Studio tests in Jenkins CI by following these steps:
 
 5.&nbsp; **Input ArtOfTest.Runner command line command to execute tests**. Under 'Execute Windows batch command', input the ArtOfTest.Runner command to execute your test or test list, including <a href="/features/test-runners/artoftest-runner" target="_blank">full path to ArtOfTest.Runner.exe and appropriate arguments</a>.
 
+*You may need the <a href="https://wiki.jenkins.io/display/JENKINS/Windows+Exe+Runner+Plugin">Windows Exe Runner Plugin</a> in order to run this command from Jenkins with arguments.
+
 ![Arguments][4]
 
 Your test execution step is now ready to save and run.
